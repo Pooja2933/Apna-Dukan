@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    background-color: rgb(67, 15, 67);
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li:hover {
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: yellow;
+}
+nav ul li:visited {
+    color: rgb(153, 97, 153);
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.left h1{
+    margin: auto;
+}
+.right{
+    font-size: 1.5rem;
+}
+.img{
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.products{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: rgb(24, 19, 24);
+    
+}
+.card {
+    width: 20%;
+    height: 400px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    justify-content: space-evenly;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+.card div img{
+    object-fit: contain;
+    width: 80%;
+}
+
+h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(67, 15, 67);
+    margin: 10px;
+    height: 30px;
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 20px;
+}
+.footPanel{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(67, 15, 67);
+    margin: 10px;
+    height: 300px;
+    font-size: 1.7rem;
+    margin: 20px;
+    padding: 50px;
+
+}
